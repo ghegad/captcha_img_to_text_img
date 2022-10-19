@@ -19,7 +19,7 @@ convert captcha image to simple image
 ## Usage/Examples
 
 ```javascript
-import {captcha_to_image_base64} from '@ghegad/captcha_to_image_base64'
+import {captcha_to_image_base64} from 'captcha_to_image_base64'
 import fs from "fs";
 var base64_captcha_img = await fs.readFileSync('./captcha.jpg', 'base64');
 var base64_new_img = await captcha_to_image_base64(base64_captcha_img);
